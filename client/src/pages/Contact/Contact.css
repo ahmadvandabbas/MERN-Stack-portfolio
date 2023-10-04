@@ -1,0 +1,224 @@
+@font-face {
+  font-family: vazir;
+  src: url("../../../public/fonts/Vazir-Medium.woff");
+}
+.contact {
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: vazir;
+}
+.contact h2 {
+  font-weight: bold;
+  color: yellow;
+  font-family: vazir;
+}
+.contact hr {
+  color: yellow;
+  width: 350px;
+  margin: 10px auto;
+}
+.contact-container {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+.form-contact-container {
+  flex: 1;
+  margin: 60px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+.form h3 {
+  color: yellow;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 22px;
+  text-align: left;
+  font-family: vazir;
+}
+.form input {
+  width: 380px;
+  text-align: left;
+  padding: 4px;
+  padding-left: 8px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: vazir;
+  font-size: 13px;
+}
+.form textarea {
+  width: 380px;
+  height: 150px;
+
+  padding: 4px;
+  padding-left: 8px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: vazir;
+  font-size: 13px;
+}
+.form button {
+  width: 100px;
+  padding: 4px;
+  margin-top: 15px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  outline: none;
+  font-weight: bold;
+  color: #292929;
+  font-family: vazir;
+}
+.form button:hover {
+  cursor: pointer;
+  background-color: yellow;
+  width: 120px;
+  font-size: 17px;
+  transition: all 1s;
+}
+.img-contact-container {
+  flex: 1;
+  margin: 60px;
+}
+.img-contact-container img {
+  border-radius: 7px;
+  width: 100%;
+  height: 330px;
+}
+
+.light .contact h2 {
+  color: black;
+  font-weight: bold;
+  font-family: vazir;
+}
+.light .contact h3 {
+  color: black;
+  font-weight: bold;
+  font-family: vazir;
+}
+.light .contact hr {
+  color: black;
+}
+.light .contact p {
+  color: black;
+  font-family: vazir;
+}
+@media (max-width: 764px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-contact-container {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+  }
+  .form {
+    margin: auto;
+  }
+  .form input {
+    width: 320px;
+    padding: 10px;
+  }
+  .form textarea {
+    width: 320px;
+    padding: 10px;
+  }
+
+  .img-contact-container {
+    border-radius: 40%;
+    border: 6px solid rgb(72, 72, 241);
+    width: 330px;
+  }
+  .img-contact-container img {
+    height: 250px;
+    width: 100%;
+    border-radius: 40%;
+  }
+}
+@media (min-width: 764px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-contact-container {
+    padding: 5px;
+    margin-left: 0;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+  .form {
+    padding: 5px;
+    margin: auto;
+  }
+  .img-contact-container {
+    border-radius: 15%;
+    border: 5px solid blue;
+    width: 350px;
+  }
+  .img-contact-container img {
+    height: 250px;
+    width: 100%;
+    border-radius: 15%;
+  }
+}
+@media (min-width: 1000px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+  }
+  .img-contact-container {
+    padding: 70px;
+    border: none;
+    border-radius: 40%;
+  }
+  .img-contact-container img {
+    margin: 0px;
+    height: 300px;
+    border-radius: 40%;
+  }
+}

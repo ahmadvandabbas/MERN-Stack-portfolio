@@ -1,0 +1,54 @@
+@font-face {
+  font-family: vazir;
+  src: url("../../../public/fonts/Vazir-Medium.woff");
+}
+
+.workExp {
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.workExp h2 {
+  font-weight: bold;
+  color: yellow;
+  font-family: vazir;
+}
+.workExp hr {
+  color: yellow;
+  width: 400px;
+  margin: 10px auto;
+}
+.vertical {
+  margin-top: 40px;
+  width: 75%;
+}
+
+.vertical-timeline-element-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: vazir;
+}
+.vertical-timeline-element-subtitle {
+  font-size: 15px;
+  color: rgb(56, 56, 56);
+  font-family: vazir;
+}
+
+/*light mode */
+.light .workExp h2 {
+  color: black;
+  font-weight: bold;
+  font-family: vazir;
+}
+.light .workExp hr {
+  color: black;
+}
+.light .workExp p {
+  color: black;
+  font-family: vazir;
+}

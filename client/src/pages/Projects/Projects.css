@@ -1,0 +1,115 @@
+@font-face {
+  font-family: vazir;
+  src: url("../../../public/fonts/Vazir-Medium.woff");
+}
+
+.projects {
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects h2 {
+  font-weight: bold;
+  color: yellow;
+  font-family: vazir;
+}
+.projects hr {
+  color: yellow;
+  width: 400px;
+  margin: 10px auto;
+}
+.projects p {
+  margin-top: 20px;
+  color: white;
+  font-family: vazir;
+  font-size: 14px;
+}
+#ads {
+  margin: 30px 0 30px 0;
+}
+.card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 7px;
+  font-size: 14px;
+}
+.card {
+  background-color: white;
+  color: black;
+}
+.card:hover {
+  background-color: rgb(179, 177, 177);
+  color: black;
+}
+.card img {
+  height: 140px;
+  width: 100%;
+}
+.card-detail-badge {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-right: 1px;
+  font-family: vazir;
+}
+.card-detail-badge:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.25s;
+}
+.card-image-overly {
+  font-family: vazir;
+  background-color: gray;
+  padding: 8px;
+  width: 260px;
+}
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 4px;
+  font-family: vazir;
+  font-size: 12px;
+}
+.ad-title h5 {
+  text-align: center;
+  font-size: 16px;
+  font-family: vazir;
+}
+/*light mode */
+.light .projects h2 {
+  color: black;
+  font-weight: bold;
+  font-family: vazir;
+}
+.light .projects hr {
+  color: black;
+}
+.light .projects p {
+  color: black;
+  font-family: vazir;
+  font-size: 14px;
+}
+@media (max-width: 764px) {
+  .projects p {
+    margin-top: 25px;
+    padding: 3px;
+    width: 100%;
+  }
+  .cards {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

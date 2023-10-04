@@ -1,0 +1,82 @@
+.mobile-nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.mobile-nav-header {
+  height: 50px;
+  width: 100%;
+  background-color: #1e1e1e;
+  padding: 8px;
+}
+.mobile-nav-icon {
+  color: white;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.mobile-nav-title {
+  color: yellow;
+  margin-left: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.mobile-nav-menu {
+  background-color: #1e1e1e;
+  width: 200px;
+  color: white;
+  border-bottom-right-radius: 10px;
+}
+.mobile-nav-menu .nav-item {
+  height: auto;
+  width: 200px;
+  padding: 5px;
+  margin-top: 0.5px;
+  margin-left: 0px;
+}
+.mobile-nav-menu .nav-link {
+  margin-left: 2px;
+  margin-bottom: 10px;
+}
+
+/*فارسی*/
+.mobile-nav-menu-farsi {
+  background-color: #1e1e1e;
+  color: white;
+  width: 200px;
+  margin-top: 0.5px;
+  border-bottom-right-radius: 10px;
+}
+.mobile-nav-menu-farsi .nav-item {
+  margin-top: 0px;
+  height: auto;
+  width: 200px;
+  padding: 5px;
+  text-align: right;
+}
+.mobile-nav-menu-farsi .nav-link {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+.mobile-nav-menu-farsi svg {
+  text-align: right;
+}
+.mobile-nav-menu-farsi span {
+  text-align: right;
+}
+.mobile-nav-menu-farsi .nav-link .active {
+  color: yellow;
+  border-left: none;
+  border-right: 5px solid yellow;
+  padding-right: 1px;
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .mobile-nav {
+    display: none;
+  }
+}

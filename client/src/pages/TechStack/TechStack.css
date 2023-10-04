@@ -1,0 +1,59 @@
+@font-face {
+  font-family: vazir;
+  src: url("../../../public/fonts/Vazir-Medium.woff");
+}
+
+.techStack {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.techStack h2 {
+  font-weight: bold;
+  color: yellow;
+  font-family: vazir;
+}
+.techStack hr {
+  color: yellow;
+  width: 400px;
+  margin: 10px auto;
+}
+.techStack p {
+  margin-top: 20px;
+  color: white;
+  font-family: vazir;
+}
+.container-items-tech {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.card:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.light .techStack h2 {
+  color: black;
+  font-weight: bold;
+  font-family: vazir;
+}
+.light .techStack hr {
+  color: black;
+  font-weight: bold;
+}
+.light .techStack p {
+  color: black;
+  font-family: vazir;
+}
+@media (max-width: 764px) {
+  .techStack p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: vazir;
+  }
+}

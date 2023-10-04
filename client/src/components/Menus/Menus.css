@@ -1,0 +1,78 @@
+@font-face {
+  font-family: vazir;
+  src: url("../../../public/fonts/Vazir-Medium.woff");
+}
+
+.navbar-profile-pic {
+  margin: 0 auto;
+}
+
+.navbar-profile-pic img {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  filter: opacity(70%);
+  border: 2px solid rgb(142, 212, 37);
+}
+
+.nav-item {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.nav-link {
+  margin-top: 21px;
+  cursor: pointer;
+  margin-left: 25px;
+  color: white;
+}
+.nav-link span:hover {
+  color: yellow;
+  font-size: 14.5px;
+}
+.nav-link svg {
+  margin-right: 10px;
+  font-size: 23px;
+}
+.nav-link .active {
+  color: yellow;
+  border-left: 5px solid yellow;
+  padding-left: 1px;
+  text-decoration: none;
+}
+/*فارسی*/
+
+.farsi {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.farsi .nav-link {
+  margin-top: 21px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: white;
+  text-align: right;
+  font-family: vazir;
+}
+.nav-link span {
+  font-family: vazir;
+}
+.nav-link span:hover {
+  color: yellow;
+  font-size: 14.5px;
+}
+.nav-link svg {
+  margin-left: 10px;
+  font-size: 23px;
+}
+.farsi .nav-link .active {
+  color: yellow;
+  border-left: none;
+  border-right: 5px solid yellow;
+  padding-right: 1px;
+  text-decoration: none;
+}
